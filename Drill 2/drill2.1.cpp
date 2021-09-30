@@ -8,7 +8,7 @@ int main() {
     cout << "Hello, " << first_name << "!" << endl;
     
     cout << "Hello! What does this drill mean add a few introdoctary lines and actually intend it? It's sort of difficult when anyone could write their name in." << endl;
-    cout << "I hope it doesn't actually matter what I write here. I am not very creative. I also hope this two lines are enough" << endl;
+    cout << "I hope it doesn't actually matter what I write here. I am not very creative. I also hope these two lines are enough" << endl;
 
     cout << "Now please enter the name of a friend" << endl;
     string friend_name;
@@ -50,7 +50,7 @@ int main() {
     }
     cout << "Yours sincerely, " << endl << endl << endl;
     
-    cout << "Marton Gergely" << endl; //az a ékezetes verziójat nem szereti
+    cout << "Marton Gergely" << endl; //az a Ã©kezetes verziÃ³jat nem szereti
    
     return 0;
 }
