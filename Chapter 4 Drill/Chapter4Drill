@@ -1,0 +1,48 @@
+#include "std_lib_facilities.h"
+//the drill might also #include less than perfect solutions because of time-constraints
+int main()
+{
+	bool Continue = true;
+	double min = 0, max = 0;
+	while (Continue == true)
+	{
+		double firstinteger, secondinteger; //awkward but they were named before the rename to double
+		cin >> firstinteger >> secondinteger;
+		if (firstinteger < secondinteger)
+		{
+			min = firstinteger;
+			max = secondinteger;
+		}
+		else if (firstinteger > secondinteger)
+		{
+			min = secondinteger;
+			max = firstinteger;
+		}
+		else if (firstinteger = secondinteger)
+		{
+			cout << "The numbers are equal" << endl;
+		}
+		cout << "First integer: " << firstinteger << " The second integer: " << secondinteger << endl;
+		if (firstinteger < secondinteger)
+		{
+			min = firstinteger;
+			max = secondinteger;
+		}
+		else if (firstinteger > secondinteger)
+		{
+			min = secondinteger;
+			max = firstinteger;
+		}
+		else if (firstinteger = secondinteger)
+		{
+			cout << "The numbers are equal" << endl;
+		}
+		
+		cout << "The smaller number is: " << min << " The bigger number is: " << max << endl;
+		if ((max - min) / (1.0 / 100))
+		{
+			cout << "The numbers are almost equal" << endl;
+		}
+	}
+	return 0;
+}
